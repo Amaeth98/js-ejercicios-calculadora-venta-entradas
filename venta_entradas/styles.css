@@ -1,0 +1,25 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    height: 20vh;
+}
+
+h1{
+    display: flex;
+    color: #008080;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#formulario{
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+}
