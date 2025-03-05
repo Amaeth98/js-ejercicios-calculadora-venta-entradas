@@ -1,3 +1,13 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    height: 100vh;
+    border-radius: 50px;
+}
+
 .contenedor{
     position: absolute;
     padding: 10px;
@@ -6,8 +16,6 @@
     justify-content: center;
     align-items: center;
     background-color: #f0f0f0;
-    height: 20vh;
-    border-radius: 50px;
 }
 
 h1{
@@ -30,7 +38,6 @@ h1{
 button{
     background-color: #008080;
     color: white;
-    position: sticky;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
